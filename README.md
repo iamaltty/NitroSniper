@@ -27,7 +27,7 @@ Installation
 -------------
 ### Heroku: ###
 
-  [![Deploy to heroku](https://www.herokucdn.com/deploy/button.svg)]()
+  [![Deploy to heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
   `DEPLOY TO HEROKU HAS BEEN REMOVED DUE TO HEAVY ABUSE, KEEP IN MIND THIS PROJECT IS FOR EDUCATIONAL PURPOSES AND WAS NOT MEANT TO VIOLATE THE DISCORD TOS.`
   
