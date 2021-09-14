@@ -1,7 +1,7 @@
 {
    "name": "Nitro Sniper",
    "description": "A discord nitro sniper.",
-   "repository": "https://github.com/adam757521/NitroSniper",
+   "repository": "https://github.com/iamaltty/NitroSniper",
    "logo": "https://discord.com/assets/2c21aeda16de354ba5334551a883b481.png",
    "env": {
       "settings": {
