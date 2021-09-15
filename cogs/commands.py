@@ -57,6 +57,26 @@ class Commands(commands.Cog):
 
         await ctx.send(embed=embed)
 
+    @commands.command()
+    async def offline(self, ctx):
+        await self.bot.change_presence(status=discord.Status.invisible)
+        await ctx.send(f"Set status to invisible")
+
+    @commands.command()
+    async def idle(self, ctx):
+        await self.bot.change_presence(status=discord.Status.idle)
+        await ctx.send(f"Set status to idle")
+
+    @commands.command()
+    async def dnd(self, ctx):
+        await self.bot.change_presence(status=discord.Status.dnd)
+        await ctx.send(f"Set status to dnd")
+
+    @commands.command()
+    async def online(self, ctx):
+        await self.bot.change_presence(status=discord.Status.online)
+        await ctx.send(f"Set status to online")
+
 
 def setup(bot):
     bot.add_cog(Commands(bot))
